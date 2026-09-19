@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-foundry-blueprint-compiler"
+version = "0.1.0"
+description = "Compile reviewable fenced capability blueprints into validated runtime package records."
+requires-python = ">=3.11"
+license = {file = "LICENSE.md"}
+
+[tool.setuptools.packages.find]
+include = ["agent_foundry_blueprint_compiler*"]

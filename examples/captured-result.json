@@ -1,0 +1,12 @@
+{
+  "kind": "captured synthetic execution projection",
+  "command": "python -m examples.demo",
+  "input_example": "examples/demo.py",
+  "observed_output": {
+    "name": "Normalize Text",
+    "round_trip": true,
+    "mixed_package_rejected": true,
+    "blueprint_sha256": "7472dc118e36438347ec461cdbf82abd4ab6b894de7f4eb8b6eaad3f54107d38"
+  },
+  "projection_note": "Selected fields from a successful local run. Machine paths, temporary identifiers and execution timestamps are omitted. Re-run the linked example for fresh evidence."
+}

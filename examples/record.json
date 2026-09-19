@@ -1,0 +1,24 @@
+{
+  "name": "Normalize Text",
+  "required_replacements": [],
+  "optional_replacements": [],
+  "logic": "def normalize(value):\n    return ' '.join(value.split())",
+  "arguments": [
+    {
+      "argument_value_name": "value",
+      "argument_question": "Text to normalize?"
+    }
+  ],
+  "returns": [
+    {
+      "return_value_name": "normalized",
+      "return_description": "Whitespace-normalized text"
+    }
+  ],
+  "recognitions": [
+    {
+      "recognition_name": "example",
+      "recognition_text": "Synthetic demonstration"
+    }
+  ]
+}
