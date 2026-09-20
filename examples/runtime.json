@@ -1,0 +1,31 @@
+{
+  "schema_version": "agent-foundry.runtime-package.v1",
+  "package": {
+    "name": "Normalize Text",
+    "required_replacements": [],
+    "optional_replacements": [],
+    "logic": {
+      "logic_source": "def normalize(value):\n    return ' '.join(value.split())"
+    },
+    "arguments": [
+      {
+        "argument_question": "Text to normalize?",
+        "argument_value_name": "value"
+      }
+    ],
+    "returns": [
+      {
+        "return_description": "Whitespace-normalized text",
+        "return_value_name": "normalized"
+      }
+    ],
+    "recognitions": [
+      {
+        "recognition_name": "example",
+        "recognition_text": "Synthetic demonstration"
+      }
+    ]
+  },
+  "blueprint_sha256": "7472dc118e36438347ec461cdbf82abd4ab6b894de7f4eb8b6eaad3f54107d38",
+  "record_sha256": "14bcb51aa169f11c3bc3669061f16ff33edcf5ffc653510bf9eadfaff09f4f5a"
+}

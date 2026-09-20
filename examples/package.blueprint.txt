@@ -1,0 +1,42 @@
+Normalize Text Package ID:
+"Normalize Text"
+End Normalize Text Package ID
+
+Normalize Text Required Replacements:
+[]
+End Normalize Text Required Replacements
+
+Normalize Text Optional Replacements:
+[]
+End Normalize Text Optional Replacements
+
+Normalize Text Logic:
+"def normalize(value):\n    return ' '.join(value.split())"
+End Normalize Text Logic
+
+Normalize Text Arguments:
+[
+  {
+    "argument_question": "Text to normalize?",
+    "argument_value_name": "value"
+  }
+]
+End Normalize Text Arguments
+
+Normalize Text Returns:
+[
+  {
+    "return_description": "Whitespace-normalized text",
+    "return_value_name": "normalized"
+  }
+]
+End Normalize Text Returns
+
+Normalize Text Recognitions:
+[
+  {
+    "recognition_name": "example",
+    "recognition_text": "Synthetic demonstration"
+  }
+]
+End Normalize Text Recognitions
